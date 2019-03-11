@@ -1,5 +1,6 @@
 package com.LickingHeights;
 
+import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
@@ -7,12 +8,22 @@ public class Main {
         //Method 1:Hello World!
         firstMethod("World!");
 
-        }
-
-    public static void firstMethod(String name){
-
-    System.out.println("Hello " + name);
+        //Method 2:Introductions
+        introduction();
 
     }
+
+    public static void firstMethod(String place){
+
+    System.out.println("Hello " + place);
+
+    }
+
+    public static void introduction(int name){
+    Scanner input = new Scanner(System.in);
+    System.out.println("Hi my name is " + name);
+
+    }
+
 
 }
