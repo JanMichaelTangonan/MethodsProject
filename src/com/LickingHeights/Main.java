@@ -16,6 +16,11 @@ public class Main {
         int b = 5;
         System.out.println(multiplication(a, b));
 
+        //Method 4:Division
+        int c = 100;
+        int d = 5;
+        System.out.println(division(c, d));
+
     }
 
     public static void firstMethod(String place) {
@@ -36,6 +41,13 @@ public class Main {
     public static int multiplication(int firstNumber, int secondNumber) {
 
         return firstNumber * secondNumber;
+    }
+
+    public static double division(int firstNumber, int secondNumber) {
+        double quotient;
+        quotient = firstNumber / secondNumber;
+        return quotient;
+
     }
 
 }
