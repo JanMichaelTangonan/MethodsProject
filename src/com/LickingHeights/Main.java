@@ -10,7 +10,13 @@ public class Main {
 
         //Method 2:Introductions
         introduction();
-        }
+
+        //Method 3:Multiplication
+        int a = 5;
+        int b = 5;
+        System.out.println(multiplication(a, b));
+
+    }
 
     public static void firstMethod(String place) {
 
@@ -27,4 +33,9 @@ public class Main {
 
     }
 
+    public static int multiplication(int firstNumber, int secondNumber) {
+
+        return firstNumber * secondNumber;
     }
+
+}
