@@ -21,6 +21,13 @@ public class Main {
         int d = 5;
         System.out.println(division(c, d));
 
+        /*///Method 5:Max value
+        double e = 25;
+        double f = 35;
+        System.out.println(maxValue(e,f) + "is the maximum value");*/
+
+        //Method 6:Order Switching
+        orderSwitching();
     }
 
     public static void firstMethod(String place) {
@@ -50,4 +57,21 @@ public class Main {
 
     }
 
+    /*public static double maxValue(double firstNumber, double secondNumber) {
+        double = 35.00;
+        double = 25.00;
+        return highestNumber;
+
+    }*/
+
+    public static String orderSwitching(){
+        String firstWord;
+        String secondWord;
+        String switchedStatements;
+        firstWord = ("Team");
+        secondWord = ("Fortress");
+        switchedStatements = secondWord + firstWord;
+
+        return switchedStatements;
+    }
 }
