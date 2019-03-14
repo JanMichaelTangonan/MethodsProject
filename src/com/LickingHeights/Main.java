@@ -10,20 +10,21 @@ public class Main {
 
         //Method 2:Introductions
         introduction();
+        }
+
+    public static void firstMethod(String place) {
+
+        System.out.println("Hello " + place);
 
     }
 
-    public static void firstMethod(String place){
+    public static String introduction() {
+        Scanner input = new Scanner(System.in);
+        String givenName = input.nextLine();
+        System.out.println("Hi my name is " + givenName);
 
-    System.out.println("Hello " + place);
-
-    }
-
-    public static void introduction(int name){
-    Scanner input = new Scanner(System.in);
-    System.out.println("Hi my name is " + name);
+        return givenName;
 
     }
 
-
-}
+    }
